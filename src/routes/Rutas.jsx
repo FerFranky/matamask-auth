@@ -5,7 +5,7 @@ import Logout from "./../components/Logout"
 const Rutas = () => {
   return (
     <Routes>
-            <Route path="/" element={<Inicio />}/>
+            <Route path="/matamask-auth" element={<Inicio />}/>
             <Route path="/logout" element={<Logout />}/>
             <Route path="/firmas" element={<Firmas />}/>
     </Routes>
