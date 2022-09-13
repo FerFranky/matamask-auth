@@ -6,8 +6,8 @@ const Rutas = () => {
   return (
     <Routes>
             <Route path="/matamask-auth" element={<Inicio />}/>
-            <Route path="/logout" element={<Logout />}/>
-            <Route path="/firmas" element={<Firmas />}/>
+            <Route path="/matamask-auth/logout" element={<Logout />}/>
+            <Route path="/matamask-auth/firmas" element={<Firmas />}/>
     </Routes>
   )
 }
